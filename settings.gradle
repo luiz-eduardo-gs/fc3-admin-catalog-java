@@ -1,2 +1,5 @@
 rootProject.name = 'fc3-admin-catalog-java'
+include 'domain'
+include 'application'
+include 'infrastructure'
 
