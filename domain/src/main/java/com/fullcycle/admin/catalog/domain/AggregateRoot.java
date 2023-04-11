@@ -1,6 +1,8 @@
 package com.fullcycle.admin.catalog.domain;
 
-public class AggregateRoot<ID extends Identifier> extends Entity<ID>{
+import com.fullcycle.admin.catalog.domain.validation.ValidationHandler;
+
+public abstract class AggregateRoot<ID extends Identifier> extends Entity<ID>{
     protected AggregateRoot(final ID id) {
         super(id);
     }
